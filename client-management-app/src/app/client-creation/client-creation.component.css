@@ -1,0 +1,36 @@
+/* CSS styles for the client creation component */
+
+/* Apply styles to form elements */
+.form-group {
+    margin-bottom: 20px; /* Add space between form fields */
+  }
+  
+  label {
+    display: block; /* Display labels in block format */
+    font-weight: bold; /* Make labels bold */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 100%; /* Take up full width of parent container */
+    padding: 10px; /* Add padding around input fields */
+    border: 1px solid #ccc; /* Add border with light gray color */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+    margin-bottom: 10px; /* Add space below input fields */
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px; /* Add padding to button */
+    background-color: #007bff; /* Set background color */
+    color: #fff; /* Set text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3; /* Change background color on hover */
+  }
+  
