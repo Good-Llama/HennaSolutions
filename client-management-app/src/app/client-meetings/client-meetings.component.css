@@ -1,0 +1,14 @@
+.client-meetings-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+  }
+  

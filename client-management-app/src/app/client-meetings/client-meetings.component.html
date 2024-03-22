@@ -1,1 +1,7 @@
-<p>client-meetings works!</p>
+<div class="client-meetings-container">
+    <h2>Client Meetings</h2>
+    <ul>
+      <li *ngFor="let meeting of meetings">{{ meeting.title }} - {{ meeting.date }}</li>
+    </ul>
+  </div>
+  
